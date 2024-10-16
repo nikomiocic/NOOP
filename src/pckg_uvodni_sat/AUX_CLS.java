@@ -1,6 +1,5 @@
 package pckg_uvodni_sat;
 
-import jdk.dynalink.linker.support.CompositeGuardingDynamicLinker;
 
 import java.util.ArrayList;
 import java.util.HashMap;
