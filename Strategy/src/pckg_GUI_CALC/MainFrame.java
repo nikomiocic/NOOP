@@ -1,11 +1,13 @@
 package pckg_GUI_CALC;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class MainFrame extends JFrame {
 
     private ViewPanel viewPanel;
     private FormPanel formPanel;
+    private ToolBar toolBar;
 
 
     public MainFrame(){
@@ -19,19 +21,30 @@ public class MainFrame extends JFrame {
 
         initComps();
         layoutComps();
-        actuvateMainFrame();
+        activateMainFrame();
     }
 
-    private void actuvateMainFrame() {
+    private void activateMainFrame() {
+        formPanel.setFormPanelListener(new FormPanelListener() {
+            @Override
+            public void formPanelEventOccurred(CalculationFormData formRecord) {
+            }
+        });
+
     }
 
     private void layoutComps() {
+        setLayout(new BorderLayout());
+        add(viewPanel, BorderLayout.CENTER);
+        add(formPanel, BorderLayout.SOUTH);
+        add(toolBar, BorderLayout.NORTH);
 
     }
 
     private void initComps() {
         viewPanel = new ViewPanel();
         formPanel = new FormPanel();
+        toolBar = new ToolBar();
     }
 
 }
