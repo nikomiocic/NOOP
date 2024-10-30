@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class ViewPanel extends JPanel {
 
-    private JTextArea area;
+    private static JTextArea area;
     private JScrollPane scrollPane;
 
 
@@ -17,5 +17,13 @@ public class ViewPanel extends JPanel {
         add(scrollPane, BorderLayout.CENTER);
 
 
+    }
+    public  void addTextToViewPanel(String dataTxt){
+        area.append(dataTxt + "/n");
+    }
+
+    public static void clearAll() {
+        area.selectAll();
+        area.replaceSelection(null);
     }
 }
