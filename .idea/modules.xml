@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ADAPTER/ADAPTER.iml" filepath="$PROJECT_DIR$/ADAPTER/ADAPTER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Command/Command.iml" filepath="$PROJECT_DIR$/Command/Command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DECORATOR/DECORATOR.iml" filepath="$PROJECT_DIR$/DECORATOR/DECORATOR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_GENERICS/JAVA_GENERICS.iml" filepath="$PROJECT_DIR$/JAVA_GENERICS/JAVA_GENERICS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/NOOP.iml" filepath="$PROJECT_DIR$/.idea/NOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer_MOD/Observer_MOD.iml" filepath="$PROJECT_DIR$/Observer_MOD/Observer_MOD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/REPERTITORIUM/REPERTITORIUM.iml" filepath="$PROJECT_DIR$/REPERTITORIUM/REPERTITORIUM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strategy/Strategy.iml" filepath="$PROJECT_DIR$/Strategy/Strategy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pckg_home_controller/pckg_home_controller.iml" filepath="$PROJECT_DIR$/pckg_home_controller/pckg_home_controller.iml" />
     </modules>
   </component>
 </project>
